@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05371C8813E8271F0096F27B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05371C8713E8271F0096F27B /* Cocoa.framework */; };
+		05371C9213E8271F0096F27B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05371C9013E8271F0096F27B /* InfoPlist.strings */; };
+		05371C9413E8271F0096F27B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05371C9313E8271F0096F27B /* main.m */; };
+		05371C9813E8271F0096F27B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 05371C9613E8271F0096F27B /* Credits.rtf */; };
+		05371C9B13E8271F0096F27B /* OverlayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05371C9A13E8271F0096F27B /* OverlayAppDelegate.m */; };
+		05371C9E13E827200096F27B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05371C9C13E827200096F27B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05371C8313E8271F0096F27B /* Overlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05371C8713E8271F0096F27B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		05371C8A13E8271F0096F27B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		05371C8B13E8271F0096F27B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		05371C8C13E8271F0096F27B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05371C8F13E8271F0096F27B /* Overlay-Info.plist */ = {isa = PBXFileReference; path = "Overlay-Info.plist"; sourceTree = "<group>"; };
+		05371C9113E8271F0096F27B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05371C9313E8271F0096F27B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05371C9513E8271F0096F27B /* Overlay-Prefix.pch */ = {isa = PBXFileReference; path = "Overlay-Prefix.pch"; sourceTree = "<group>"; };
+		05371C9713E8271F0096F27B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		05371C9913E8271F0096F27B /* OverlayAppDelegate.h */ = {isa = PBXFileReference; path = OverlayAppDelegate.h; sourceTree = "<group>"; };
+		05371C9A13E8271F0096F27B /* OverlayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayAppDelegate.m; sourceTree = "<group>"; };
+		05371C9D13E827200096F27B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05371C8013E8271F0096F27B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05371C8813E8271F0096F27B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05371C7813E8271F0096F27B = {
+			isa = PBXGroup;
+			children = (
+				05371C8D13E8271F0096F27B /* Overlay */,
+				05371C8613E8271F0096F27B /* Frameworks */,
+				05371C8413E8271F0096F27B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05371C8413E8271F0096F27B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05371C8313E8271F0096F27B /* Overlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05371C8613E8271F0096F27B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05371C8713E8271F0096F27B /* Cocoa.framework */,
+				05371C8913E8271F0096F27B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05371C8913E8271F0096F27B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05371C8A13E8271F0096F27B /* AppKit.framework */,
+				05371C8B13E8271F0096F27B /* CoreData.framework */,
+				05371C8C13E8271F0096F27B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		05371C8D13E8271F0096F27B /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				05371C9913E8271F0096F27B /* OverlayAppDelegate.h */,
+				05371C9A13E8271F0096F27B /* OverlayAppDelegate.m */,
+				05371C9C13E827200096F27B /* MainMenu.xib */,
+				05371C8E13E8271F0096F27B /* Supporting Files */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		05371C8E13E8271F0096F27B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05371C8F13E8271F0096F27B /* Overlay-Info.plist */,
+				05371C9013E8271F0096F27B /* InfoPlist.strings */,
+				05371C9313E8271F0096F27B /* main.m */,
+				05371C9513E8271F0096F27B /* Overlay-Prefix.pch */,
+				05371C9613E8271F0096F27B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05371C8213E8271F0096F27B /* Overlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05371CA113E827200096F27B /* Build configuration list for PBXNativeTarget "Overlay" */;
+			buildPhases = (
+				05371C7F13E8271F0096F27B /* Sources */,
+				05371C8013E8271F0096F27B /* Frameworks */,
+				05371C8113E8271F0096F27B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Overlay;
+			productName = Overlay;
+			productReference = 05371C8313E8271F0096F27B /* Overlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05371C7A13E8271F0096F27B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Spotify AB";
+			};
+			buildConfigurationList = 05371C7D13E8271F0096F27B /* Build configuration list for PBXProject "Overlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05371C7813E8271F0096F27B;
+			productRefGroup = 05371C8413E8271F0096F27B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05371C8213E8271F0096F27B /* Overlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05371C8113E8271F0096F27B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05371C9213E8271F0096F27B /* InfoPlist.strings in Resources */,
+				05371C9813E8271F0096F27B /* Credits.rtf in Resources */,
+				05371C9E13E827200096F27B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05371C7F13E8271F0096F27B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05371C9413E8271F0096F27B /* main.m in Sources */,
+				05371C9B13E8271F0096F27B /* OverlayAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05371C9013E8271F0096F27B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05371C9113E8271F0096F27B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05371C9613E8271F0096F27B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05371C9713E8271F0096F27B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		05371C9C13E827200096F27B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05371C9D13E827200096F27B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05371C9F13E827200096F27B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		05371CA013E827200096F27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		05371CA213E827200096F27B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Overlay/Overlay-Prefix.pch";
+				INFOPLIST_FILE = "Overlay/Overlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05371CA313E827200096F27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Overlay/Overlay-Prefix.pch";
+				INFOPLIST_FILE = "Overlay/Overlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05371C7D13E8271F0096F27B /* Build configuration list for PBXProject "Overlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05371C9F13E827200096F27B /* Debug */,
+				05371CA013E827200096F27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05371CA113E827200096F27B /* Build configuration list for PBXNativeTarget "Overlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05371CA213E827200096F27B /* Debug */,
+				05371CA313E827200096F27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05371C7A13E8271F0096F27B /* Project object */;
+}
