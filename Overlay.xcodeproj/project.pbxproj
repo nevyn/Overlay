@@ -21,12 +21,12 @@
 		05371C8A13E8271F0096F27B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		05371C8B13E8271F0096F27B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		05371C8C13E8271F0096F27B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		05371C8F13E8271F0096F27B /* Overlay-Info.plist */ = {isa = PBXFileReference; path = "Overlay-Info.plist"; sourceTree = "<group>"; };
+		05371C8F13E8271F0096F27B /* Overlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Overlay-Info.plist"; sourceTree = "<group>"; };
 		05371C9113E8271F0096F27B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05371C9313E8271F0096F27B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		05371C9513E8271F0096F27B /* Overlay-Prefix.pch */ = {isa = PBXFileReference; path = "Overlay-Prefix.pch"; sourceTree = "<group>"; };
+		05371C9513E8271F0096F27B /* Overlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Overlay-Prefix.pch"; sourceTree = "<group>"; };
 		05371C9713E8271F0096F27B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		05371C9913E8271F0096F27B /* OverlayAppDelegate.h */ = {isa = PBXFileReference; path = OverlayAppDelegate.h; sourceTree = "<group>"; };
+		05371C9913E8271F0096F27B /* OverlayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverlayAppDelegate.h; sourceTree = "<group>"; };
 		05371C9A13E8271F0096F27B /* OverlayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayAppDelegate.m; sourceTree = "<group>"; };
 		05371C9D13E827200096F27B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +128,7 @@
 		05371C7A13E8271F0096F27B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Spotify AB";
 			};
 			buildConfigurationList = 05371C7D13E8271F0096F27B /* Build configuration list for PBXProject "Overlay" */;
@@ -288,6 +289,7 @@
 				05371CA313E827200096F27B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

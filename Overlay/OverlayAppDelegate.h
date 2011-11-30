@@ -10,8 +10,12 @@
 
 @interface OverlayAppDelegate : NSObject <NSApplicationDelegate> {
 	NSWindow *_window;
+	NSImageView *_image;
 }
 
 @property (strong) IBOutlet NSWindow *window;
+- (IBAction)takeOpacityFrom:(id)sender;
+- (IBAction)sizeToFit:(id)sender;
 
+@property (strong) IBOutlet NSImageView *image;
 @end
